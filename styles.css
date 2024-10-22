@@ -1,6 +1,94 @@
 body {
-    background-color: #c7aba9;
-    background-image: url("./Images/ab79c175dc5513cfa467e65797cd2cc0.png");
-    color: white; 
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: hwb(202 6% 20%);
+    background-image: url(./Images/sebastian-svenson-d2w-_1LJioQ-unsplash\(1\).jpg);
+    color: white;
+    font-family: "Poppins", sans-serif;
+    }
+
+input {
+    all: unset;
+}
+
+h1 {
+    font-size: 3.5rem;
+    line-height 1.25;
+    margin-bottom: 1.75rem;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    justify-content: space-between;
+    padding: 10rem 20rem;
+}
+
+.page-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.page-text > p {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    margin-top: 0;
+}
+
+.cta {
+background-color: hwb(229 17% 9%);
+padding: 0.5rem 3rem;
+margin-bottom: 1rem;
+text-align: center;
+}
+
+.round-edges {
+    border-radius: 1rem;
+    
+} 
+
+.container-shadow {
+    box-shadow: 0 0.5rem rgba(120, 116, 116, 0.1);
+}
+
+.form-container {
+    display: grid;
+}
+    
+
+.form{
+    background-color: #e1dbdb;
+}
+
+form {
+    display: flex;
+    flex-direction: column; 
+}
+
+form > input{
+   padding: 1rem; 
+   margin-bottom: 1rem;
+   border:1px solid rgb(84, 82, 82);
+   border-radius: 0.5rem;
+   font-weight: 700;
+}
+
+form > input:focus {
+    border: 1px solid #000000;
+}
+
+form > input:last-child {
+    background-color: rgb(88, 122, 112);
+    text-align: center;
+    
+}
+
+.terms {
+    color: rgb(68, 67, 63);
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.terms > strong {
+    color: hwb(27 4% 6%)
 }

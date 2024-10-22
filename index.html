@@ -7,26 +7,30 @@
     <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
-    <div>
-    <h1>Welcome to my website!</h1>
-    <p>This is where I showcase all my portfolios and works. 
-        I created this website in VSCode using both HTML & CSS.
+    <div class="container">
+    <div class="page-text">
+     <h1 class="h1class" id="h1Id"> Welcome to my website!</h1>
+     <p>This is where I showcase all my portfolios and works. 
+        I created this first website in VSCode using both HTML & CSS.
     </p>
     </div>
-    <div>
-        <p><strong>I plan on using this button to link to my works!.</strong>  
+    <div class="form-container">
+        <div class="cta round-edges container-shadow" id="uniqueCTA"
+        <p class="h1class">
+            <strong>I plan on using this button to link to my works!.</strong>  
             Contact me below!.</p>
+        </div>  
+        <div class="form round-edges container-shadow"> 
         <form>
-          <input type="text" name="first-name" placeholder="First Name"/>
-          <input type="text" name="last-name" placeholder="Last Name"/>
-          <input type="text" name="email" placeholder="Email Address"/>
-          <input type="text" name="password" placeholder="Password"/>
-          <input type="button" value="CLAIM YOUR FREE TRIAL" />
+            <input type="text" name="first-name" placeholder="First Name"/>
+            <input type="text" name="last-name" placeholder="Last Name"/>
+            <input type="text" name="email" placeholder="Email Address"/>
+            <input type="text" name="password" placeholder="Password"/>
+            <input class="container-shadow" type="button" value="CLAIM YOUR FREE TRIAL" />
         </form>
-        <p>Clicking the button you are agreeing to our <strong> Terms of Service.</strong></p>
+        <p class="terms"> Clicking the button you are agreeing to our <strong>Terms of Service.</strong></p>
     </div>
-
-
-
+    </div>
+    </div>
 </body>
 </html>
